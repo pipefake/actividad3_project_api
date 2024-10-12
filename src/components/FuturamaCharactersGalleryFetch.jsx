@@ -53,7 +53,7 @@ export const FuturamaCharactersGalleryFetch = () => {
             </div>
             <div className="row overflow-auto vh-80" style={{ maxHeight: '80vh', overflowY: 'scroll' }}>
                 {filteredFuturamaCharacters.map((characters, index) => (
-                    <div className="col-md-4 mb-4" key={characters.id}>
+                    <div className="col-md-4 mb-4"  key={characters.id}>
                         <div className="card">
                             <div className="card-characters">
                                 <img src={characters.images.main} className="card-img-top object-fit-cover image" alt={characters.name} />
